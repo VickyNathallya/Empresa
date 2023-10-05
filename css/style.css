@@ -1,0 +1,38 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+.button{
+    color: #434343;
+    border: 1px solid #434343;
+    background-color: white;
+    width: 95px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    cursor: pointer;
+    color: #434343;
+    background-color: #b8dfffc0;
+}
+label{
+    font-size: 1.4em;
+    text-align: start;
+}
+.dados{
+    background-color: #7cb5ff;
+    border: none;
+    opacity: 0.5;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+}
